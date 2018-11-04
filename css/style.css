@@ -5,7 +5,9 @@
     border-radius: 10px;
     background: #f4f4f4;
 }
-
+body{
+    overflow: hidden;
+}
 
 @font-face {
 	font-family: 'GoodTimes';
