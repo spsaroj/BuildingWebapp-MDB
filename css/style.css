@@ -6,7 +6,11 @@
     background: #f4f4f4;
 }
 body{
+<<<<<<< HEAD
     overflow-x: hidden;
+=======
+    overflow: hidden;
+>>>>>>> f751ce96dc25e20ad763e537221fa336b49d581a
 }
 
 @font-face {
