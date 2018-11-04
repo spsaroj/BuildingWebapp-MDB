@@ -94,3 +94,8 @@ footer.page-footer {
     position: fixed;
     width: 100%;
 }
+@media (max-width:767px){
+    .navbar .navbar-brand{
+        font-size: small;
+    }
+}
