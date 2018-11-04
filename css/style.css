@@ -1,0 +1,92 @@
+.container{
+    -webkit-box-shadow: 0px 1px 10px 2px rgba(204,204,204,0.50);
+    -moz-box-shadow: 0px 1px 10px 2px rgba(216, 70, 70, 0.50);
+    box-shadow: 0px 1px 10px 2px rgba(204,204,204,0.5);
+    border-radius: 10px;
+    background: #f4f4f4;
+}
+
+
+@font-face {
+	font-family: 'GoodTimes';
+	src: url('../font/goodTimes.ttf')  format('truetype')
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url('../font/roboto/Roboto-Light.ttf')  format('truetype')
+}
+.navbar .navbar-brand{
+    font-family: 'GoodTimes','Roboto',Arial, Helvetica, sans-serif;
+}
+.navbar .nav-link{
+    font-family: 'GoodTimes',Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+}
+article{
+    margin: 80px 0 60px 0;
+    padding: 10px 0;
+}
+.card{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding:5px;
+}
+
+.testimonial-card .card-up {
+    overflow: hidden;
+    height: 120px;
+    -webkit-border-top-left-radius: .25rem;
+    border-top-left-radius: .25rem;
+    -webkit-border-top-right-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+.testimonial-card .avatar {
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    width: 120px;
+    margin-top: -60px;
+    overflow: hidden;
+    border: 5px solid #fff;
+}
+.testimonial-card .avatar img {
+    width: 100%;
+    height: 110px;
+}
+#icon{
+    text-shadow:rgb(176, 21, 27) 0px 0px 0px,
+                rgb(180, 21, 27) 1px 1px 0px,
+                rgb(184, 22, 28) 2px 2px 0px,
+                rgb(188, 22, 28) 3px 3px 0px,
+                rgb(192, 23, 29) 4px 4px 0px,
+                rgb(195, 23, 29) 5px 5px 0px,
+                rgb(199, 24, 30) 6px 6px 0px,
+                rgb(203, 24, 31) 7px 7px 0px,
+                rgb(207, 25, 31) 8px 8px 0px,
+                rgb(210, 25, 32) 9px 9px 0px,
+                rgb(214, 26, 32) 10px 10px 0px,
+                rgb(218, 26, 33) 11px 11px 0px,
+                rgb(222, 26, 33) 12px 12px 0px,
+                rgb(226, 27, 34) 13px 13px 0px,
+                rgb(229, 27, 35) 14px 14px 0px,
+                rgb(233, 28, 35) 15px 15px 0px,
+                rgb(237, 28, 36) 16px 16px 0px,
+                rgb(241, 29, 36) 17px 17px 0px,
+                rgb(244, 29, 37) 18px 18px 0px,
+                rgb(248, 30, 37) 19px 19px 0px;
+    font-size: 33px; 
+    color: rgb(255, 255, 255);
+    height: 60px; width: 60px;
+    line-height: 60px;
+    border-radius: 18%; 
+    text-align: center; 
+    background-color: rgb(252, 30, 38);
+}
+form{
+    background: #fff;
+    border-radius: 10px;
+}
+footer.page-footer {
+    color: #fff;
+    position: fixed;
+    width: 100%;
+}
